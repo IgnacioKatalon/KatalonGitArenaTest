@@ -13,3 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://quria1-arena.axiell.com/welcome')
+
+WebUI.setText(findTestObject('Object Repository/Page_Welcome - quria1-arena-arena.a/input_Search_containerSearchQu'), 'Cervantes')
+
+WebUI.click(findTestObject('Object Repository/Page_Welcome - quria1-arena-arena.a/input_Search_arenaSimpleSearch'))
+
+WebUI.click(findTestObject('Object Repository/Page_Catalogue Search Result - quri/span_El Quijote de Cervantes'))
+
+WebUI.closeBrowser()
+
