@@ -21,7 +21,11 @@ WebUI.setText(findTestObject('Object Repository/Page_Welcome - quria1-arena-aren
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome - quria1-arena-arena.a/input_Search_arenaSimpleSearch'))
 
+WebUI.click(findTestObject(null))
+
 WebUI.click(findTestObject('Object Repository/Page_Catalogue Search Result - quri/span_El Quijote de Cervantes'))
 
 WebUI.closeBrowser()
+
+
 
